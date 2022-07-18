@@ -1,0 +1,41 @@
+.advantage {
+  display: flex;
+  padding-top: 94px;
+}
+
+.advantage-items::before {
+  display: inline-block;
+  content: '';
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: $bg-section-team;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.advantage-items:not(:last-child) {
+  margin-right: 30px;
+}
+
+.advantage-items__title {
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: $second-color;
+}
+.advantage-items__description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: $description-color;
+}
+@each $iconName in $icons {
+  .advantage-items.advantage-items__#{$iconName}::before {
+    background-image: url(/images/icons/#{$iconName}.svg);
+  }
+}
