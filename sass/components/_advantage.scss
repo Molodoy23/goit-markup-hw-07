@@ -36,6 +36,6 @@
 }
 @each $iconName in $icons {
   .advantage-items.advantage-items__#{$iconName}::before {
-    background-image: url(/images/icons/#{$iconName}.svg);
+    background-image: url(../images/icons/#{$iconName}.svg);
   }
 }

@@ -245,7 +245,7 @@ address {
   width: 100%;
   padding: 200px 0px;
   background: #2f303a;
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/bg-hero.jpg);
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/bg-hero.jpg);
   text-align: center;
 }
 .hero-section__title {
@@ -333,19 +333,19 @@ address {
 }
 
 .advantage-items.advantage-items__icon-satellite::before {
-  background-image: url(/images/icons/icon-satellite.svg);
+  background-image: url(../images/icons/icon-satellite.svg);
 }
 
 .advantage-items.advantage-items__icon-watch::before {
-  background-image: url(/images/icons/icon-watch.svg);
+  background-image: url(../images/icons/icon-watch.svg);
 }
 
 .advantage-items.advantage-items__icon-graffic::before {
-  background-image: url(/images/icons/icon-graffic.svg);
+  background-image: url(../images/icons/icon-graffic.svg);
 }
 
 .advantage-items.advantage-items__icon-astronaut::before {
-  background-image: url(/images/icons/icon-astronaut.svg);
+  background-image: url(../images/icons/icon-astronaut.svg);
 }
 
 .work-section {
