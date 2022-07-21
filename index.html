@@ -35,7 +35,7 @@
           <ul class="list-contacts">
             <li class="list-contacts__item">
               <a href="mailto:info@devstudio.com" class="list-contacts__link">
-                <svg class="list-contacts__icon">
+                <svg class="list-contacts__icon-email">
                   <use href="./images/icons/symbol-defs.svg#icon-envelope"></use>
                 </svg>
                 info@devstudio.com</a
@@ -43,7 +43,7 @@
             </li>
             <li class="list-contacts__item">
               <a href="tel:+380961111111" class="list-contacts__link">
-                <svg class="list-contacts__icon">
+                <svg class="list-contacts__icon-phone">
                   <use href="./images/icons/symbol-defs.svg#icon-smartphone"></use>
                 </svg>
                 +38 096 111 11 11</a
@@ -234,61 +234,61 @@
         <section class="clients">
           <h2 class="clients-title">Постоянные клиенты</h2>
           <ul class="clients-list">
-            <li class="clients-item">
+            <li class="clients-list__item">
               <a href="">
-                <svg class="clients-item__icon">
+                <svg class="clients-list__icon">
                   <use
-                    class="clients-item__icon-color"
+                    class="clients-list__icon-color"
                     href="./images/icons/symbol-defs.svg#icon-union"
                   ></use>
                 </svg>
               </a>
             </li>
-            <li class="clients-item">
+            <li class="clients-list__item">
               <a href="">
-                <svg class="clients-item__icon">
+                <svg class="clients-list__icon">
                   <use
-                    class="clients-item__icon-color"
+                    class="clients-list__icon-color"
                     href="./images/icons/symbol-defs.svg#icon-group1"
                   ></use>
                 </svg>
               </a>
             </li>
-            <li class="clients-item">
+            <li class="clients-list__item">
               <a href="">
-                <svg class="clients-item__icon">
+                <svg class="clients-list__icon">
                   <use
-                    class="clients-item__icon-color"
+                    class="clients-list__icon-color"
                     href="./images/icons/symbol-defs.svg#icon-group3"
                   ></use>
                 </svg>
               </a>
             </li>
-            <li class="clients-item">
+            <li class="clients-list__item">
               <a href="">
-                <svg class="clients-item__icon">
+                <svg class="clients-list__icon">
                   <use
-                    class="clients-item__icon-color"
+                    class="clients-list__icon-color"
                     href="./images/icons/symbol-defs.svg#icon-group4"
                   ></use>
                 </svg>
               </a>
             </li>
-            <li class="clients-item">
+            <li class="clients-list__item">
               <a href="">
-                <svg class="clients-item__icon">
+                <svg class="clients-list__icon">
                   <use
-                    class="clients-item__icon-color"
+                    class="clients-list__icon-color"
                     href="./images/icons/symbol-defs.svg#icon-group5"
                   ></use>
                 </svg>
               </a>
             </li>
-            <li class="clients-item">
+            <li class="clients-list__item">
               <a href="">
-                <svg class="clients-item__icon">
+                <svg class="clients-list__icon">
                   <use
-                    class="clients-item__icon-color"
+                    class="clients-list__icon-color"
                     href="./images/icons/symbol-defs.svg#icon-logo6"
                   ></use>
                 </svg>
@@ -328,28 +328,28 @@
           <p class="title-subscribe">Присоединяйтесь</p>
           <ul class="social-media">
             <li class="social-media__item">
-              <a href="https://www.instagram.com/">
+              <a class="social-media__link" href="https://www.instagram.com/">
                 <svg class="social-media__icon">
                   <use href="./images/icons/symbol-defs.svg#icon-instagram-2"></use>
                 </svg>
               </a>
             </li>
             <li class="social-media__item">
-              <a href="https://twitter.com/">
+              <a class="social-media__link" href="https://twitter.com/">
                 <svg class="social-media__icon">
                   <use href="./images/icons/symbol-defs.svg#icon-group"></use>
                 </svg>
               </a>
             </li>
             <li class="social-media__item">
-              <a href="https://www.facebook.com/">
+              <a class="social-media__link" href="https://www.facebook.com/">
                 <svg class="social-media__icon">
                   <use href="./images/icons/symbol-defs.svg#icon-vector"></use>
                 </svg>
               </a>
             </li>
             <li class="social-media__item">
-              <a href="https://www.linkedin.com/">
+              <a class="social-media__link" href="https://www.linkedin.com/">
                 <svg class="social-media__icon">
                   <use href="./images/icons/symbol-defs.svg#icon-linkedin-1"></use>
                 </svg>
@@ -392,7 +392,7 @@
             <label class="form-modal__field-name" for="name">Имя</label>
             <input class="form-modal__input-field" type="text" id="name" />
             <span class="form-modal__item">
-              <svg class="form-modal__icon">
+              <svg class="form-modal__icon-name">
                 <use href="./images/icons/symbol-defs.svg#icon-person"></use>
               </svg>
             </span>
@@ -401,7 +401,7 @@
             <label class="form-modal__field-name" for="tel">Телефон</label>
             <input class="form-modal__input-field" type="tel" id="tel" />
             <span class="form-modal__item">
-              <svg class="form-modal__icon">
+              <svg class="form-modal__icon-phone">
                 <use href="./images/icons/symbol-defs.svg#icon-phone"></use>
               </svg>
             </span>
@@ -410,7 +410,7 @@
             <label class="form-modal__field-name" for="form-email">Почта</label>
             <input class="form-modal__input-field" type="email" id="form-email" />
             <span class="form-modal__item">
-              <svg class="form-modal__icon">
+              <svg class="form-modal__icon-email">
                 <use href="./images/icons/symbol-defs.svg#icon-email"></use>
               </svg>
             </span>
@@ -435,8 +435,8 @@
               <span class="form-modal__agree-policy-name"> </span>
               Соглашаюсь с рассылкой и принимаю
               <span>
-                <a class="form-modal__agree-policy-link" href="https://www.pornhub.com"
-                  >Условия договора</a
+                <a class="form-modal__agree-policy-link" href="https://www.pornhub.com">
+                  Условия договора</a
                 >
               </span>
             </label>
