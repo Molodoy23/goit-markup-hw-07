@@ -587,6 +587,7 @@ address {
 
 .social-media {
   display: flex;
+  margin-right: 93px;
 }
 .social-media__item:not(:last-child) {
   margin-right: 10px;
