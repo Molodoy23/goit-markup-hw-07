@@ -56,16 +56,16 @@
     fill: $second-icon-color;
   }
   &__icon-name {
-    width: 12px;
-    height: 12px;
+    width: 18px;
+    height: 18px;
   }
   &__icon-phone {
-    width: 13px;
-    height: 13px;
+    width: 18px;
+    height: 18px;
   }
   &__icon-email {
-    width: 15px;
-    height: 12px;
+    width: 18px;
+    height: 18px;
   }
   &__group {
     position: relative;
@@ -141,6 +141,8 @@
     border-radius: 4px;
     resize: none;
     width: 100%;
+    padding-top: 11px;
+    padding-bottom: 11px;
   }
   &__input-field::placeholder {
     font-family: 'Roboto';

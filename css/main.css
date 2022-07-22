@@ -583,15 +583,15 @@ address {
   text-transform: uppercase;
   color: #ffffff;
 }
-.title-subscribe:not(:last-child) {
-  margin-right: 93px;
-}
 
 .social-media {
   display: flex;
 }
 .social-media__item:not(:last-child) {
   margin-right: 10px;
+}
+.social-media__group {
+  margin-right: 93px;
 }
 .social-media__link {
   display: flex;
@@ -754,16 +754,16 @@ address {
   fill: #000;
 }
 .form-modal__icon-name {
-  width: 12px;
-  height: 12px;
+  width: 18px;
+  height: 18px;
 }
 .form-modal__icon-phone {
-  width: 13px;
-  height: 13px;
+  width: 18px;
+  height: 18px;
 }
 .form-modal__icon-email {
-  width: 15px;
-  height: 12px;
+  width: 18px;
+  height: 18px;
 }
 .form-modal__group {
   position: relative;
@@ -839,6 +839,8 @@ address {
   border-radius: 4px;
   resize: none;
   width: 100%;
+  padding-top: 11px;
+  padding-bottom: 11px;
 }
 .form-modal__input-field::-moz-placeholder {
   font-family: "Roboto";

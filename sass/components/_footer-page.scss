@@ -59,14 +59,14 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: $title-color;
-  &:not(:last-child) {
-    margin-right: 93px;
-  }
 }
 .social-media {
   display: flex;
   &__item:not(:last-child) {
     margin-right: 10px;
+  }
+  &__group {
+    margin-right: 93px;
   }
   &__link {
     display: flex;

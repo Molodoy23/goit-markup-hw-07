@@ -317,15 +317,15 @@ address {
   text-transform: uppercase;
   color: #ffffff;
 }
-.title-subscribe:not(:last-child) {
-  margin-right: 93px;
-}
 
 .social-media {
   display: flex;
 }
 .social-media__item:not(:last-child) {
   margin-right: 10px;
+}
+.social-media__group {
+  margin-right: 93px;
 }
 .social-media__link {
   display: flex;
