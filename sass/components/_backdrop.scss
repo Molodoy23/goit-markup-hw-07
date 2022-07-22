@@ -130,6 +130,7 @@
     left: 20px;
     top: 47%;
     transform: translate(-50%);
+    height: 18px;
   }
   &__input-field {
     font-family: 'Roboto';
@@ -141,8 +142,8 @@
     border-radius: 4px;
     resize: none;
     width: 100%;
-    padding-top: 11px;
-    padding-bottom: 11px;
+    padding-top: 7px;
+    padding-bottom: 7px;
   }
   &__input-field::placeholder {
     font-family: 'Roboto';
@@ -178,4 +179,5 @@
 }
 .feed-back {
   padding: 12px 16px;
+  height: 120px;
 }

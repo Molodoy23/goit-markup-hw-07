@@ -31,7 +31,8 @@ figure,
 figcaption,
 blockquote,
 dl,
-dd {
+dd,
+input {
   margin: 0;
   list-style-type: none;
   padding: 0;

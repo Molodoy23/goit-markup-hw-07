@@ -31,7 +31,8 @@ figure,
 figcaption,
 blockquote,
 dl,
-dd {
+dd,
+input {
   margin: 0;
   list-style-type: none;
   padding: 0;
@@ -828,6 +829,7 @@ address {
   left: 20px;
   top: 47%;
   transform: translate(-50%);
+  height: 18px;
 }
 .form-modal__input-field {
   font-family: "Roboto";
@@ -839,8 +841,8 @@ address {
   border-radius: 4px;
   resize: none;
   width: 100%;
-  padding-top: 11px;
-  padding-bottom: 11px;
+  padding-top: 7px;
+  padding-bottom: 7px;
 }
 .form-modal__input-field::-moz-placeholder {
   font-family: "Roboto";
@@ -895,4 +897,5 @@ address {
 
 .feed-back {
   padding: 12px 16px;
+  height: 120px;
 }/*# sourceMappingURL=main.css.map */
